@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/LoiseauNicolas/static/css/main.8b7e391b.chunk.css",
-    "main.js": "/LoiseauNicolas/static/js/main.7a6993f0.chunk.js",
-    "main.js.map": "/LoiseauNicolas/static/js/main.7a6993f0.chunk.js.map",
-    "runtime-main.js": "/LoiseauNicolas/static/js/runtime-main.e2ad26d0.js",
-    "runtime-main.js.map": "/LoiseauNicolas/static/js/runtime-main.e2ad26d0.js.map",
+    "main.js": "/LoiseauNicolas/static/js/main.c7d50af6.chunk.js",
+    "main.js.map": "/LoiseauNicolas/static/js/main.c7d50af6.chunk.js.map",
+    "runtime-main.js": "/LoiseauNicolas/static/js/runtime-main.3e807903.js",
+    "runtime-main.js.map": "/LoiseauNicolas/static/js/runtime-main.3e807903.js.map",
     "static/css/2.a417cd58.chunk.css": "/LoiseauNicolas/static/css/2.a417cd58.chunk.css",
-    "static/js/2.e4eb47e0.chunk.js": "/LoiseauNicolas/static/js/2.e4eb47e0.chunk.js",
-    "static/js/2.e4eb47e0.chunk.js.map": "/LoiseauNicolas/static/js/2.e4eb47e0.chunk.js.map",
+    "static/js/2.d5269a3a.chunk.js": "/LoiseauNicolas/static/js/2.d5269a3a.chunk.js",
+    "static/js/2.d5269a3a.chunk.js.map": "/LoiseauNicolas/static/js/2.d5269a3a.chunk.js.map",
     "index.html": "/LoiseauNicolas/index.html",
-    "precache-manifest.996b7d897aa039215591fb1710bf3f8f.js": "/LoiseauNicolas/precache-manifest.996b7d897aa039215591fb1710bf3f8f.js",
+    "precache-manifest.484eefcb84423f3903d6308c13f68739.js": "/LoiseauNicolas/precache-manifest.484eefcb84423f3903d6308c13f68739.js",
     "service-worker.js": "/LoiseauNicolas/service-worker.js",
     "static/css/2.a417cd58.chunk.css.map": "/LoiseauNicolas/static/css/2.a417cd58.chunk.css.map",
     "static/css/main.8b7e391b.chunk.css.map": "/LoiseauNicolas/static/css/main.8b7e391b.chunk.css.map",
-    "static/js/2.e4eb47e0.chunk.js.LICENSE.txt": "/LoiseauNicolas/static/js/2.e4eb47e0.chunk.js.LICENSE.txt",
+    "static/js/2.d5269a3a.chunk.js.LICENSE.txt": "/LoiseauNicolas/static/js/2.d5269a3a.chunk.js.LICENSE.txt",
+    "static/media/CV_Nicolas_EN.pdf": "/LoiseauNicolas/static/media/CV_Nicolas_EN.15afdc54.pdf",
     "static/media/earth.jpg": "/LoiseauNicolas/static/media/earth.67af05e1.jpg",
     "static/media/font-awesome.css": "/LoiseauNicolas/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/g1775.png": "/LoiseauNicolas/static/media/g1775.49c88867.png",
     "static/media/image1.jpg": "/LoiseauNicolas/static/media/image1.768998c6.jpg",
     "static/media/image2.jpg": "/LoiseauNicolas/static/media/image2.8de6195d.jpg",
     "static/media/image3.jpg": "/LoiseauNicolas/static/media/image3.28470933.jpg",
@@ -24,14 +26,13 @@
     "static/media/image6.jpg": "/LoiseauNicolas/static/media/image6.62b7cc75.jpg",
     "static/media/ionicons.css": "/LoiseauNicolas/static/media/ionicons.621bd386.svg",
     "static/media/male.png": "/LoiseauNicolas/static/media/male.a82ab1cd.png",
-    "static/media/male1.png": "/LoiseauNicolas/static/media/male1.3ec3891b.png",
     "static/media/myImage.png": "/LoiseauNicolas/static/media/myImage.bd80794f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2ad26d0.js",
+    "static/js/runtime-main.3e807903.js",
     "static/css/2.a417cd58.chunk.css",
-    "static/js/2.e4eb47e0.chunk.js",
+    "static/js/2.d5269a3a.chunk.js",
     "static/css/main.8b7e391b.chunk.css",
-    "static/js/main.7a6993f0.chunk.js"
+    "static/js/main.c7d50af6.chunk.js"
   ]
 }
