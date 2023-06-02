@@ -21,7 +21,7 @@ const Intro = () => {
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "French PhD Student in Medical Images and AI",
+                      "French PhD Student in 3D Medical Images and AI",
                       "Keypoint detection and description",
                       "Python / C++ / CUDA-CPU"
                     ]}
