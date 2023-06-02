@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect }  from 'react';
 import $ from 'jquery';
 
-class Preloader extends React.Component {
-    componentDidMount(){
-        $(window).on('load', function () {
-            if ($('#preloader').length) {
-              $('#preloader').delay(100).fadeOut('slow', function () {
-                $(this).remove();
-              });
-            }
-          });
-    }
 
-    render(){
-        return <div id="preloader"></div>;
-    }
+
+const Preloader = () => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    $(window).on('load', function () {
+      if ($('#preloader').length) {
+        $('#preloader').delay(100).fadeOut('slow', function () {
+          $(this).remove();
+        });
+      }
+    });
+  });
+
+  return ( <div id="preloader"></div> );
 }
 
 export default Preloader;
