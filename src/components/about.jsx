@@ -3,6 +3,27 @@ import myImage from "../img/myImage.png";
 
 import { useState } from "react";
 
+import { CgCPlusPlus } from 'react-icons/cg';
+import { DiPython } from 'react-icons/di';
+import { SiLatex } from 'react-icons/si';
+import { SiPytorch } from 'react-icons/si';
+import { SiTensorflow } from 'react-icons/si';
+import { SiNvidia } from 'react-icons/si';
+import { DiJava } from 'react-icons/di';
+import { SiCmake } from 'react-icons/si';
+import { DiGithubBadge } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
+import { DiJavascript1 } from 'react-icons/di';
+import { RiEnglishInput } from 'react-icons/ri';
+import { GiFrance } from 'react-icons/gi';
+
+// import Badge from 'react-bootstrap';
+
+function createComponent(componentName, props, children){
+  var component = React.createElement(eval(componentName), props, children);
+  return component;
+}
+
 const About = () => {
 
   const skills= [
@@ -60,6 +81,24 @@ const About = () => {
     },
   ]
 
+  const secondskills = [
+    { id: "english_skill", content: "English fluent", icon: RiEnglishInput },
+    { id: "french_skill", content: "French native", icon: GiFrance }
+  ]
+  const firstskills = [
+    { id: "Python_skill", content: "Python 3", icon: DiPython },
+    { id: "Pytorch_skill", content: "Pytorch", icon: SiPytorch },
+    { id: "Tensorflow_skill", content: "Tensorflow", icon: SiTensorflow },
+    { id: "C++_skill", content: "C++", icon: CgCPlusPlus },
+    { id: "CUDA_skill", content: "CUDA", icon: SiNvidia },
+    { id: "Java_skill", content: "Java", icon: DiJava },
+    { id: "cmake_skill", content: "CMake", icon: SiCmake },
+    { id: "Git_skill", content: "Git", icon: DiGithubBadge },
+    { id: "Latex_skill", content: "Latex", icon: SiLatex },
+    { id: "ReactJS_skill", content: "ReactJS", icon: DiReact },
+    { id: "JavaScript_skill", content: "JavaScript", icon: DiJavascript1 },
+  ]
+
   const about_me = [
     {
       id: "first-p-about",
@@ -102,7 +141,49 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="skill-mf">
+
+                  <div className="d-flex flex-column mb-5">
+                    <div className="skill-mfh1 gap-2">
+                      <p className="title-s text-center font-weight-bold h1 ">IT Skills</p>
+                      {
+                        firstskills.map(skill => { 
+                          return (
+                            <div className="h1 mt-20 mb-20" key={skill.id}>
+                              <p className="pull-left mt-20 h3">{skill.content}
+                              </p>
+                              <span className="badge bg-info pull-right h3">
+                                <skill.icon/>
+                              </span>
+                              <br></br>
+                            </div>
+                        );})
+                      }
+                    </div>
+                    </div>
+
+
+                    <div className="d-flex flex-column mb-5">
+                    <div className="skill-mfh1 gap-2">
+                      <p className="title-s text-center font-weight-bold h1 ">Others Skills</p>
+                      {
+                        secondskills.map(skill => { 
+                          return (
+                            <div className="h1 mt-20 mb-1" key={skill.id}>
+                              <span className="badge bg-info pull-right">
+                                <skill.icon/>
+                              </span>
+                              <p className="pull-left mt-1 h3">{skill.content}
+                              </p>
+                              <br></br>
+
+                            </div>
+                        );})
+                      }
+                    </div>
+                  </div>
+
+{/* 
+
                     <p className="title-s">Skills</p>
                     {skills.map(skill => { 
                       return (
@@ -124,10 +205,10 @@ const About = () => {
                         </React.Fragment>
                       );
                     })}
-                  </div>
-                  <div className="skill-mf">
+                  </div> */}
+
+                  {/* <div className="skill-mf">
                   <p className="title-s">Others Skills</p>
-                    {/* <p className="title-s">Skill</p> */}
                     {othersskills.map(othersskills => { 
                       return (
                         <React.Fragment key={othersskills.id}>
@@ -148,7 +229,8 @@ const About = () => {
                         </React.Fragment>
                       );
                     })}
-                  </div>
+                  </div> */}
+
                 </div>
                 <div className="col-md-6">
                   <div className="about-me pt-4 pt-md-0">
@@ -178,6 +260,7 @@ const About = () => {
 
 
             </div>
+            
           </div>
         </div>
       </div>
