@@ -1,11 +1,10 @@
 {
-  "name": "portfolio",
+  "name": "Nicolas Loiseau",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shloksomani.github.io/react-portfolio/",
+  "homepage": "https://LoiseauNicolas.github.io/LoiseauNicolas/",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
     "normalize.css": "^8.0.1",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
