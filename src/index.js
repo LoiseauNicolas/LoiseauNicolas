@@ -27,6 +27,7 @@ import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
+import Sometests from './components/sometests';
 
 
 
@@ -36,6 +37,7 @@ ReactDOM.render(
         <Intro />
         <About />
         {/* <Portfolio /> */}
+        <Sometests />
         <Contact />
         <BackToTop />
         <Preloader />
