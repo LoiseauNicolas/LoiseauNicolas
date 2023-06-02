@@ -1,8 +1,9 @@
 import React, { useState, useEffect }  from 'react';
 import $ from "jquery";
 
-import logo1 from "../img/g1775.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/moi_1.png";
+import logo2 from "../img/g1775.png";
+// import logo2 from "../img/male.png";
 
 
 const Navbar = () => {
