@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e47d781080fcfb3282add6623707f222",
+    "revision": "fb58096cc1fd19be37b665054ffdc66d",
     "url": "/LoiseauNicolas/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LoiseauNicolas/static/css/2.a417cd58.chunk.css"
   },
   {
-    "revision": "0fe1c6306e340d03c839",
+    "revision": "2af3da699d595496e2fc",
     "url": "/LoiseauNicolas/static/css/main.8b7e391b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LoiseauNicolas/static/js/2.d5269a3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0fe1c6306e340d03c839",
-    "url": "/LoiseauNicolas/static/js/main.c7d50af6.chunk.js"
+    "revision": "2af3da699d595496e2fc",
+    "url": "/LoiseauNicolas/static/js/main.0f6d9af4.chunk.js"
   },
   {
     "revision": "bd7b3666370838f86df4",
